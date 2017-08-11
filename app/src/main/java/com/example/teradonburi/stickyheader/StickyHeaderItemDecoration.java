@@ -19,13 +19,9 @@ public class StickyHeaderItemDecoration extends RecyclerView.ItemDecoration {
 
     private StickyHeaderInterface mListener;
     private View currentHeader;
-    private int column;
-    private int bottomSpace;
 
-    public StickyHeaderItemDecoration(@NonNull StickyHeaderInterface listener, int column, int bottomSpace) {
+    public StickyHeaderItemDecoration(@NonNull StickyHeaderInterface listener) {
         mListener = listener;
-        this.column = column;
-        this.bottomSpace = bottomSpace;
     }
 
 

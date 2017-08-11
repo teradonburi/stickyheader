@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         binding.recyclerView.setHasFixedSize(true);
         binding.recyclerView.setAdapter(recyclerViewAdapter);
         binding.recyclerView.setLayoutManager(new GridLayoutManager(this,1));
-        binding.recyclerView.addItemDecoration(new StickyHeaderItemDecoration(recyclerViewAdapter,1, 0));
+        binding.recyclerView.addItemDecoration(new StickyHeaderItemDecoration(recyclerViewAdapter));
 
         recyclerViewAdapter.setItems(createItems());
     }
