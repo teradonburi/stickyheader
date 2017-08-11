@@ -1,3 +1,3 @@
 # Android StickyHeader Sample
 
-![デモ画像](./demo.gif)
+![デモ画像=320x640](./demo.gif)
